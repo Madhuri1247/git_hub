@@ -6,12 +6,5 @@ pipeline {
                 echo 'hello world'
             }
        }
-        stage ('verify branch') {
-            steps {
-                echo "$GIT_BRANCH"
-            }
-        }
-    
-    
     }
 }
